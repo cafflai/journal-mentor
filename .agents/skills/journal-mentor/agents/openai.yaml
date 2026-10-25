@@ -1,0 +1,4 @@
+interface:
+  display_name: "日记复盘导师"
+  short_description: "结合日记证据与项目内历史，理解情绪、职业变化和行为模式，形成可调整的建议"
+  default_prompt: "使用 $journal-mentor 复盘最近的日记，先给初步观察，必要时追问，再一起确定建议。"

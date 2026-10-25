@@ -1,0 +1,29 @@
+# Private runtime data: never commit these, including inside nested copies.
+diary/
+memory/
+reviews/
+.test-work/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+auth.json
+
+# Generated files and machine-local artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
